@@ -1,0 +1,8 @@
+{
+	"presets": [["env", {
+		"targets": {
+			"chrome": "49",
+			"firefox": "51"
+		}
+	}]]
+}

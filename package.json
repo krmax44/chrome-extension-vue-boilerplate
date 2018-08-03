@@ -1,0 +1,39 @@
+{
+  "name": "chrome-extension-vue-boilerplate",
+  "version": "1.0.0",
+  "description": "Simple boilerplate for Vue.js Chrome Extensions.",
+  "main": "index.js",
+  "repository": "https://github.com/krmax44/chrome-extension-vue-boilerplate",
+  "author": "krmax44 <hi@krmax44.de>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack --watch --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "dependencies": {
+    "vue": "^2.5.17"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.2",
+    "css-loader": "^1.0.0",
+    "eslint": "^5.2.0",
+    "eslint-plugin-vue": "^4.7.1",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "uglifyjs-webpack-plugin": "^1.2.7",
+    "vue-loader": "^15.2.6",
+    "vue-style-loader": "^4.1.1",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-merge": "^4.1.4",
+    "zip-webpack-plugin": "^3.0.0"
+  }
+}
