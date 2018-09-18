@@ -15,7 +15,7 @@ $ npm install
 $ npm dev
 ```
 
-Then drag-and-drop the `./dist/` folder to ``chrome-extensions://` and you should be up and running! `yarn build` will generate a `build.zip` ready for upload to the Chrome Web Store.
+Then drag-and-drop the `./dist/` folder to `chrome-extensions://` and you should be up and running! `yarn build` will generate a `build.zip` ready for upload to the Chrome Web Store.
 
 ## This boilerplate includes...
 
